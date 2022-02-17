@@ -5,21 +5,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class TransactionsView {
+public class TransactionView {
 	
-	@GetMapping("/transactions.gettransactions")
+	
+	@GetMapping("/transaction.gettransaction")
 	@ResponseBody
-	public String gettransactions() {
+	public String gettransaction() {
 		
-<<<<<<< HEAD
-//		return	String.format(
-//		    "{ "
-//		    + "\"Name:\" : \"Horst\","
-//		    + "\"IBAN:\" : \"DE21123456234545\","
-//		    + "\"Betrag:\" : \"50\","
-//		    + "\"Zweck:\" : \"Steuer\"  "
-//		    + "}");
-=======
 		return	String.format(
 		    "{ "
 		    + "\"Name:\" : \"Horst\","
@@ -27,9 +19,7 @@ public class TransactionsView {
 		    + "\"Betrag:\" : \"50\","
 		    + "\"Zweck:\" : \"Steuer\"  "
 		    + "}");
->>>>>>> 318d1cf4320fc1ac02e4ac18c6fde2c64c0846a0
 					
 	
 	}
-
 }
