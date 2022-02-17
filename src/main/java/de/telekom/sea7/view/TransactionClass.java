@@ -4,9 +4,6 @@ import org.springframework.stereotype.Service;
 
 import de.telekom.sea7.viewinter.Transaction;
 
-
-
-
 @Service
 public class TransactionClass {
 	private Transaction transaction;
