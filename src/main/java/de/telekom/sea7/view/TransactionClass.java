@@ -16,3 +16,4 @@ public class TransactionClass {
 		this.transaction = transaction;
 	}
 }
+
