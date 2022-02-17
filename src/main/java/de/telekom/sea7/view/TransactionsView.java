@@ -10,15 +10,15 @@ public class TransactionsView {
 	@GetMapping("/transactions.gettransactions")
 	@ResponseBody
 	public String gettransactions() {
+		return null;
 		
-		return	String.format(
-		    "{ "
-		    + "\"Name:\" : \"Horst\","
-		    + "\"IBAN:\" : \"DE21123456234545\","
-		    + "\"Betrag:\" : \"50\","
-		    + "\"Zweck:\" : \"Steuer\"  "
-		    + "}");
-					
+//		return	String.format(
+//		    "{ "
+//		    + "\"Name:\" : \"Horst\","
+//		    + "\"IBAN:\" : \"DE21123456234545\","
+//		    + "\"Betrag:\" : \"50\","
+//		    + "\"Zweck:\" : \"Steuer\"  "
+//		    + "}");	
 	
 	}
 
