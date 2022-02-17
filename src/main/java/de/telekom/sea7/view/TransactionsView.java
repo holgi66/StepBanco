@@ -11,13 +11,13 @@ public class TransactionsView {
 	@ResponseBody
 	public String gettransactions() {
 		
-		return	String.format(
-		    "{ "
-		    + "\"Name:\" : \"Horst\","
-		    + "\"IBAN:\" : \"DE21123456234545\","
-		    + "\"Betrag:\" : \"50\","
-		    + "\"Zweck:\" : \"Steuer\"  "
-		    + "}");
+//		return	String.format(
+//		    "{ "
+//		    + "\"Name:\" : \"Horst\","
+//		    + "\"IBAN:\" : \"DE21123456234545\","
+//		    + "\"Betrag:\" : \"50\","
+//		    + "\"Zweck:\" : \"Steuer\"  "
+//		    + "}");
 					
 	
 	}
