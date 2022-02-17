@@ -10,6 +10,7 @@ public class TransactionsView {
 	@GetMapping("/transactions.gettransactions")
 	@ResponseBody
 	public String gettransactions() {
+		return null;
 		
 //		return	String.format(
 //		    "{ "
